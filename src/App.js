@@ -14,14 +14,14 @@ function App() {
   function updateCity(event) {
     setCity(event.target.value);
   }
-  /* function insertCity(event) {
+  function insertCity(event) {
     setShow(event.target.innerHTML);
-  } */
+  }
 
   return (
     <div className="App">
       <div className="main">
-        {/*  <ul class="d-flex justify-content-start">
+        <ul class="d-flex justify-content-start">
           <li value="Lisbon" onClick={insertCity}>
             Lisbon
           </li>
@@ -34,7 +34,7 @@ function App() {
           <li value="San Francisco" onClick={insertCity}>
             San Francisco
           </li>
-        </ul> */}
+        </ul>
         <form class="form-group" onSubmit={handleSubmit}>
           <input
             type="search"
@@ -49,7 +49,7 @@ function App() {
       </div>
       <footer class="source-footer">
         This project was coded by Thinzar Soe and is{" "}
-        <a href="https://github.com/Thinzar-Soe/se-weather-app.git">
+        <a href="https://github.com/Thinzar-Soe/Final-React-Weather-App.git">
           open-sourced on GitHub
         </a>{" "}
         and{" "}
