@@ -53,7 +53,7 @@ function App() {
           open-sourced on GitHub
         </a>{" "}
         and{" "}
-        <a href="https://github.com/Thinzar-Soe/se-weather-app.git">
+        <a href="https://curious-pastelito-e0dd6f.netlify.app/">
           hosted on Netlify
         </a>
       </footer>
