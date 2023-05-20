@@ -61,14 +61,14 @@ export default function App(props) {
     setIcon(showIcon);
     let lat = response.data.coord.lat;
     let lon = response.data.coord.lon;
-    let apiKey = "8cac06f7ab6c10287cd06a316ff84a57";
+    let apiKey = "ebef9ca4a8de66ed586fac628fade056";
     let unit = "metric";
     let apiurl = `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&appid=${apiKey}&units=${unit}`;
     axios.get(apiurl).then(show_daily_temperature);
   }
 
   if (props.city) {
-    let appKey = "0dc40d3d7cda209ca40e77430c74cf57";
+    let appKey = "ebef9ca4a8de66ed586fac628fade056";
     let url = `https://api.openweathermap.org/data/2.5/weather?q=${props.city}&appid=${appKey}&units=metric`;
     axios.get(url).then(handleMessage);
   }
