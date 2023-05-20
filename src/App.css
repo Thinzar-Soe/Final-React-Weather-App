@@ -1,0 +1,132 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.source-footer {
+  text-align: center;
+  font-size: 11px;
+  margin-top: -35px;
+}
+body {
+  background-color: aliceblue;
+}
+.form-control {
+  width: 80%;
+  float: left;
+}
+.main {
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #dcdcdc;
+  height: 460px;
+  width: 40%;
+  text-align: center;
+  margin: 50px auto;
+  border-radius: 15px;
+}
+h3,
+h4 {
+  font-weight: lighter;
+  text-align: left;
+  font-size: 20px;
+  color: #7c7c7c;
+}
+h4 {
+  font-size: 18px;
+}
+.container {
+  margin-top: 20px;
+  margin-left: -10px;
+}
+.detail {
+  text-align: left;
+  font-size: 16px;
+  margin-top: 10px;
+}
+strong {
+  font-size: 50px;
+}
+img {
+  width: 100px;
+}
+.city_name {
+  font-family: sans-serif;
+  margin: 15px auto;
+  font-size: 30px;
+}
+.humidity,
+.wind {
+  color: blue;
+  opacity: 100%;
+}
+.left-txt {
+  text-align: left;
+  line-height: 10px;
+  opacity: 65%;
+}
+.weather-forecast-temperature-min {
+  opacity: 65%;
+}
+.weather-forecast-temperatures span {
+  color: blue;
+}
+.forecast_html {
+  clear: both;
+  margin-top: 20px;
+}
+
+.status,
+.forecast {
+  margin-top: 25px;
+}
+.temp {
+  margin-top: 0px;
+}
+.weather-forecast-date {
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin-left: -35px;
+}
+li {
+  padding-right: 30px;
+  color: blue;
+  cursor: pointer;
+}
